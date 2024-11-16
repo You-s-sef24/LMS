@@ -1,0 +1,117 @@
+.body{
+    color: black;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 4px;
+}
+.logo{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.r-sec{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    color: blue;
+}
+.contact{
+    cursor: pointer;
+}
+.about{
+    cursor: pointer;
+}
+
+.container{
+    border-radius: 6px;
+    padding-bottom: 40px;
+    margin-top: 240px;
+    width: 420px;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color:white;
+    
+}
+.Login{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.input-cont{
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.username{
+    height: 24px;
+    width: 360px;
+    border-radius: 125px;
+    border-style: solid;
+    margin-bottom: 12px;
+}
+.pass{
+    height: 24px;
+    width: 360px;
+    border-radius: 125px;
+    border-style: solid;
+}
+.check-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.check{
+    padding-left: 20px;
+}
+.Forget{
+    padding-right: 35px;
+}
+.btn-cont{
+    text-align: center;
+}
+.btn{
+    width: 360px;
+    border-radius: 180px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.reg{
+    padding-top: 20px;
+    text-align: center;
+}
+.user{
+    position: absolute;
+    top: 0;
+    right: 36px;
+    padding-top: 6px;
+}
+.lock{
+    position: absolute;
+    bottom: 0;
+    right: 36px;
+    padding-bottom: 3px;
+}
